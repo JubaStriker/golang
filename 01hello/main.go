@@ -3,5 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("First line from GO and a long way to go")
+	var username string = "Jubair"
+	fmt.Println(username)
+	fmt.Printf("The value of the variable is %T \n", username)
 }
